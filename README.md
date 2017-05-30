@@ -29,7 +29,7 @@ Then clone the repository (or simply copy the `core.ipynb` file)
 
 Run the notebook
 
-`jupyter notebook core.ipynb`
+`jupyter notebook core.ipynb --NotebookApp.iopub_data_rate_limit=1000000000` (data limit command is necessary due to high data flow for large image repositories)
 
 Option 1: Run with default configuration:
 
