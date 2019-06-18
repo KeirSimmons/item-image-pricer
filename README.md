@@ -1,13 +1,12 @@
-# ItemImagePricer
-Easily add prices to images to improve sales over social media platforms such as Facebook
+# Item Image Pricer
 
-## Description
+Easily add prices to images to improve sales over social media platforms such as Facebook.
 
-When selling many items on social media platforms such as Facebook, it can be bothersome to repeatedly type the price for each item in each new post, and a lot of users ignore the text whilst they scroll through your images.
-
-To mitigate this, I personally have been using image editing software to manually add the prices to each item image before posting which has greatly increased my conversion ratio and decreased pointless questions and messages. However, manually adding these prices for each item is too lengthy a process, especially when I need to create multiple copies for different currencies.
+When selling many items on social media platforms such as Facebook, it can be bothersome to repeatedly type the price for each item in each new post, and a lot of users ignore the text whilst they scroll through your images. To mitigate this, I personally have been using image editing software to manually add the prices to each item image before posting which has greatly increased my conversion ratio and decreased pointless questions and messages asking for prices. However, manually adding these prices for each item is too lengthy a process, especially when I need to create multiple copies for different currencies.
 
 This script allows you to assign a base price for all of your items (referenced as images in a directory), and automatically add the price tag to each image (as a copy). You can change the scale factor and run the script again to create another copy in a different currency, for example. It is extremely customisable, allowing you change the display settings for the price tag among other things.
+
+I created this specifically for myself as I was selling over 1000 items at a time, and manual editing of these images (especially for multiple currencies) was very time consuming. I don't expect it to be used by many, but I leave it here in case it is. It was fun to work with some of the image packages in Python anyway :) .
 
 This must be run as an iPython notebook.
 
